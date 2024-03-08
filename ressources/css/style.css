@@ -12,3 +12,21 @@ body {
     font-family: 'Kaushan Script';
     src: url('../fonts/Kaushan_Script/KaushanScript-Regular.ttf') format('truetype');
 }
+
+body {
+    scroll-behavior: smooth;
+}
+
+/* 349px */
+
+@media  screen and (max-width: 349px) {
+    .media-logo-fixing-1 {
+        margin-top: 0.75rem;
+    }
+}
+
+@media  screen and (max-width: 379px) {
+    .media-logo-fixing-2 {
+        margin-top: 0.75rem;
+    }
+}
