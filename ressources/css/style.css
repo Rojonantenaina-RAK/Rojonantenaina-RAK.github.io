@@ -17,15 +17,21 @@ body {
     scroll-behavior: smooth;
 }
 
-/* 349px */
+.fly-hovered {
+    transition: 0.5s;
+}
 
-@media  screen and (max-width: 349px) {
+.fly-hovered:hover {
+    transform: translateY(-1rem);
+}
+
+@media  screen and (max-width: 365px) {
     .media-logo-fixing-1 {
         margin-top: 0.75rem;
     }
 }
 
-@media  screen and (max-width: 379px) {
+@media  screen and (max-width: 395px) {
     .media-logo-fixing-2 {
         margin-top: 0.75rem;
     }
